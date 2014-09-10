@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Quick Settings Wi-Fi Back Tile Tethering label -->
     <string name="quick_settings_wifi_tethering_label">Wi-Fi网络共享</string>
-    <string name="quick_settings_wifi_tethering_off_label">网络共享已关闭</string>
+    <string name="quick_settings_wifi_tethering_off_label">网络共享：关闭</string>
 
     <!-- Quick Settings Bluetooth Not Discoverable label -->
     <string name="quick_settings_bluetooth_not_discoverable_label">不被发现</string>
@@ -26,12 +26,12 @@
     <!-- Quick Settings Bluetooth Discoverable label -->
     <string name="quick_settings_bluetooth_discoverable_label">可被发现</string>
 
+    <!-- Quick Settings Bluetooth Number of Paired Devices -->
+    <string name="quick_settings_bluetooth_number_paired"><xliff:g id="number">%d</xliff:g> 个已配对的设备</string>
+
     <!-- Quick Settings Bluetooth Not Connected -->
     <string name="quick_settings_bluetooth_enabled">启用</string>
     <string name="quick_settings_bluetooth_disabled">禁用</string>
-
-    <!-- Quick Settings Bluetooth Number of Paired Devices -->
-    <string name="quick_settings_bluetooth_number_paired"><xliff:g id="number">%d</xliff:g> 个已配对的设备</string>
 
     <!-- Screenrecord Notification Ticker -->
     <string name="screenrecord_notif_ticker">屏幕正在被录制</string>
@@ -43,7 +43,8 @@
     <string name="screenrecord_notif_stop">停止</string>
 
     <!-- Screenrecord notification action: Toggle pointer -->
-    <string name="screenrecord_notif_pointer">切换指针显示</string>
+    <string name="screenrecord_notif_pointer_on">切换指针显示</string>
+    <string name="screenrecord_notif_pointer_off">切换指针隐藏</string>
 
     <!-- Screen record notification error title -->
     <string name="screenrecord_notif_error">无法录制屏幕</string>
@@ -60,14 +61,14 @@
     <string name="quick_settings_nfc_on">NFC 打开</string>
 
     <!-- QuickSettings: Immersive mode [CHAR LIMIT=NONE] -->
-    <string name="quick_settings_immersive_global_on_label">沉浸模式</string>
+    <string name="quick_settings_immersive_global_on_label">沉浸模式：开启</string>
     <!-- QuickSettings: Immersive mode (Off) [CHAR LIMIT=NONE] -->
-    <string name="quick_settings_immersive_global_off_label">沉浸模式已关闭</string>
+    <string name="quick_settings_immersive_global_off_label">沉浸模式：关闭</string>
     <!-- QuickSettings: Immersive extra modes [CHAR LIMIT=NONE] -->
     <string name="quick_settings_immersive_mode_off_label">禁用</string>
     <string name="quick_settings_immersive_mode_full_label">全部隐藏</string>
-    <string name="quick_settings_immersive_mode_no_status_bar_label">显示导航栏</string>
-    <string name="quick_settings_immersive_mode_no_navigation_bar_label">显示状态栏</string>
+    <string name="quick_settings_immersive_mode_no_status_bar_label">隐藏导航栏</string>
+    <string name="quick_settings_immersive_mode_no_navigation_bar_label">隐藏状态栏</string>
 
     <string name="network_4G">4G/LTE</string>
     <string name="network_3G_only">仅3G</string>
@@ -99,22 +100,24 @@
     <string name="quick_settings_network_unknown">未知</string>
     <string name="quick_settings_network_disable">\n无网络连接</string>
     <string name="quick_settings_quiethours_label">安静时段</string>
-    <string name="quick_settings_quiethours_off_label">安静时段已关闭</string>
+    <string name="quick_settings_quiethours_off_label">安静时段：关闭</string>
+    <string name="quick_settings_quiethours_active_label">安静时段：开启</string>
+    <string name="quick_settings_quiethours_paused_label">安静时段：暂停</string>
     <string name="quick_settings_ringer_on">声音关闭</string>
     <string name="quick_settings_ringer_off">声音开启</string>
     <string name="quick_settings_ringer_normal">声音</string>
     <string name="quick_settings_screen_sleep">立即休眠</string>
     <string name="quick_settings_sync">自动同步</string>
-    <string name="quick_settings_sync_off">自动同步已关闭</string>
+    <string name="quick_settings_sync_off">自动同步：关闭</string>
     <string name="quick_settings_torch">手电筒</string>
-    <string name="quick_settings_torch_off">手电筒已关闭</string>
-    <string name="quick_settings_vibration_on">震动已开启</string>
-    <string name="quick_settings_vibration_off">震动已关闭</string>
+    <string name="quick_settings_torch_off">手电筒：关闭</string>
+    <string name="quick_settings_vibration_on">震动：开启</string>
+    <string name="quick_settings_vibration_off">震动：关闭</string>
     <string name="quick_settings_volume">音量</string>
     <string name="quick_settings_volume_status">状态</string>
     <string name="quick_settings_usb_tether_off_label">未连接</string>
-    <string name="quick_settings_usb_tether_connected_label">网络共享已关闭</string>
-    <string name="quick_settings_usb_tether_on_label">正在分享网络</string>
+    <string name="quick_settings_usb_tether_connected_label">网络共享：关闭</string>
+    <string name="quick_settings_usb_tether_on_label">正在共享网络</string>
 
     <string name="status_bar_notification_hide_icon_packages">隐藏应用的通知图标</string>
 

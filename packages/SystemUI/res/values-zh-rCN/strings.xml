@@ -184,11 +184,11 @@
     <string name="quick_settings_bluetooth_multiple_devices_label">"蓝牙（<xliff:g id="NUMBER">%d</xliff:g> 台设备）"</string>
     <string name="quick_settings_bluetooth_off_label">"蓝牙：关闭"</string>
     <string name="quick_settings_brightness_label">"亮度"</string>
-    <string name="quick_settings_rotation_unlocked_label">"自动旋转"</string>
+    <string name="quick_settings_rotation_unlocked_label">"自动旋转：开启"</string>
     <string name="quick_settings_rotation_locked_label">"屏幕方向：锁定"</string>
     <string name="quick_settings_ime_label">"输入法"</string>
-    <string name="quick_settings_location_label">"位置信息"</string>
-    <string name="quick_settings_location_off_label">"位置信息服务已关闭"</string>
+    <string name="quick_settings_location_label">"位置信息：开启"</string>
+    <string name="quick_settings_location_off_label">"位置信息服务：关闭"</string>
     <string name="quick_settings_media_device_label">"媒体设备"</string>
     <string name="quick_settings_rssi_label">"RSSI"</string>
     <string name="quick_settings_rssi_emergency_only">"只能拨打紧急呼救电话"</string>
