@@ -121,6 +121,13 @@
 
     <string name="status_bar_notification_hide_icon_packages">隐藏应用的通知图标</string>
 
+    <string name="quick_settings_tinted_mode_status_label">状态</string>
+    <string name="quick_settings_tinted_mode_disable_label">关闭</string>
+    <string name="quick_settings_tinted_mode_off_label">变色龙:关闭</string>
+    <string name="quick_settings_tinted_mode_on_label">变色龙:开启</string>
+    <string name="quick_settings_tinted_mode_screen_label">背景色颜色</string>
+    <string name="quick_settings_tinted_mode_actionbar_label">动作条颜色</string>
+    
     <!-- Dialog title for navigation bar button selection -->
     <string name="navbar_dialog_title">选择要分配的动作</string>
     <string name="navbar_home_button">Home键</string>
